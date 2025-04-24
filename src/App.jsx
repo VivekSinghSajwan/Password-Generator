@@ -1,4 +1,4 @@
-import { use, useState } from "react"
+import {useState} from "react"
 
 function App() {
   const [length,setLength] = useState(8); //default length is 8
@@ -11,7 +11,6 @@ function App() {
     const numbers_sample = "0123456789";
     const specialChars_sample = "@#$!&?()%-_";
 
-    setLength(length);
     let str = words_sample;
     if(numbers)
       str += numbers_sample;
